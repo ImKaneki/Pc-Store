@@ -1,0 +1,15 @@
+{
+  "name": "python_reflex",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "sh .devcontainer/dev_setup.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "njpwerner.autodocstring",
+        "yzhang.markdown-all-in-one",
+        "ms-python.python",
+        "cweijan.vscode-mysql-client2"
+      ]
+    }
+  }
+}
